@@ -1,0 +1,110 @@
+@import url("http://fonts.cdnfonts.com/css/cekerayam");
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-family: "Cekerayam", sans-serif;
+  position: relative;
+}
+.home-container {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: none;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.container {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: none;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+img,
+.ex-object-fit {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+img {
+  border: none;
+  border-radius: 2%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+body,
+h1,
+h2,
+h3,
+.column,
+.section,
+.recipe-buttons,
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p,
+ol,
+ul {
+  width: 600px;
+}
+.diamond-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 40px;
+  border: none;
+  margin: auto;
+}
+.horizontal-line-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 2px;
+  border: none;
+  margin: auto;
+}
+.recipe-list {
+  list-style: none;
+}
+.recipe-buttons {
+  width: 250px;
+  margin: auto;
+  padding: 10px 30px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 0;
+  border-radius: 10px;
+  background: rgba(87, 86, 86, 0.37);
+  color: black;
+}
+.recipe-buttons:hover {
+  background: rgba(255, 255, 255, 0.452);
+}
+.nav-buttons {
+  padding: 10px;
+  font-size: 25px;
+  color: blue;
+  text-decoration: none;
+}
+.nav-buttons:hover {
+  color: white;
+}
