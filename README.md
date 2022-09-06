@@ -1,8 +1,15 @@
 # The Odin Project Recipe Assignment
 
+### 
+This is my first website that I've built while learning about HTML and CSS; it isn't perfect.
+
+---
+
 ## Link
 
 - [The Odin Project Assignment](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes)
+
+---
 
 ## Instructions
 
