@@ -1,7 +1,7 @@
 # The Odin Project Recipe Assignment
 
 ### 
-This is my first website that I've built while learning about HTML and CSS. The code and website design isn't perfect.
+This is my first website that I've built while learning HTML and CSS. The code and website design isn't perfect.
 
 ---
 
